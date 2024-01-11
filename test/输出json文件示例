@@ -1,0 +1,65 @@
+model frame输出格式
+[[info of main], [info of body], [info of hands]]
+中间输出dict格式
+{
+    "b1":{
+        "rx":[ ... ]
+        "ry":[ ... ]
+        "rz":[ ... ]
+    },
+    "b2":{
+        ...
+    },
+    "body":{
+        "x":[ ... ]
+            ...
+        "rx":[ ... ]
+            ...
+    }
+    "main":{
+        "x":[ ... ]
+            ...
+        "rx":[ ...]
+            ...
+    }
+}
+
+
+
+
+最后输出json文件 方案1
+{
+    "b1":{
+        "parent":bid
+        “pos_x”:[[x1, frame_x1], [x2, frame_x2] ...]
+        “pos_y”:[[y1, frame_y1], [y2, frame_y2] ...]
+        "pos_z":[[z1, frame_z1], [z2, frame_z2] ...]
+
+        “rot_x”:[...]
+        "rot_y":[...]
+        "rot_z":[...]
+        "rot_w":[...]
+    },
+    "b2":{
+        ...
+    }
+}
+
+最后输出json文件 方案2
+{
+    "b1":{
+        "parent":bid
+        "keyframe":[
+            {
+                "frame":frame1,
+                "pos":{x, y, z}
+                "rot":{x, y, z, w}
+            },
+            {
+                "frame":frame2,
+                ...
+            }
+        ]
+
+    }
+}

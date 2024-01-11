@@ -1,0 +1,43 @@
+{
+  "bone0": ["None", "Main bone."],
+
+  "bone1": ["bone0", "Main bone of body."],
+
+  "bone2": ["bone1", "Bone of body, control the waist."],
+
+  "bone3": ["bone2", "Bone of body, control the chest."],
+
+  "bone4": ["bone1", "Bone body, control the hip."],
+
+  "bone5": ["bone3", "Connecting head with body, control the neck."],
+
+  "bone6": ["bone5", "Bone of head, control the head."],
+
+  "bone7": ["bone3", "Bone of left arm, control the left arm."],
+
+  "bone8": ["bone7", "Bone of left arm, control the left big arm."],
+
+  "bone9": ["bone8", "Bone of left arm, control the left forearm."],
+
+  "bone10": ["bone8", "Bone of left arm, control the left hand."],
+
+  "bone11": ["bone3", "Bone of right arm, control the right arm."],
+
+  "bone12": ["bone11", "Bone of right arm, control the right big arm."],
+
+  "bone13": ["bone12", "Bone of right arm, control the right forearm."],
+
+  "bone14": ["bone13", "Bone bone of right arm, control the right hand."],
+
+  "bone15": ["bone1", "Bone of left leg, control the left leg."],
+
+  "bone16": ["bone15", "Bone of left leg, control the left shin."],
+
+  "bone17": ["bone16", "Bone of left leg, control the left sole"],
+
+  "bone18": ["bone1", "Bone of right leg, control the right leg."],
+
+  "bone19": ["bone18", "Bone of right leg, control the right shin."],
+
+  "bone20": ["bone19", "Bone of right leg, control the right sole"]
+}
