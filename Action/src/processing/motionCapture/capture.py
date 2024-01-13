@@ -1,14 +1,11 @@
 
 
-def doPs(object: object, args):
-    return object.doPs(args)
+def doPs(args, model: str = None):
+    if model == "SampleMikuu":
+        return sampleMikuu(args)
+    else:
+        return sampleMikuu(args)
 
 
-class Capture(object):
-    def doPs(self, images):
-        pass
-
-
-class MilKu(Capture):
-    def doPs(self, images):
-        pass
+def sampleMikuu(img):
+    pass

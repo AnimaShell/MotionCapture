@@ -1,5 +1,17 @@
 import datetime
+import numpy as np
 
-t = datetime.datetime.now()
-tt = str(t.year) + "_" + str(t.month) + "_" + str(t.day) + "_" + str(t.hour) + "_" + str(t.minute) + "_" + str(t.second) + "_" + str(t.microsecond)
-print(tt)
+# t = datetime.datetime.now()
+
+
+
+def f2():
+    pass
+
+
+print(f2())
+
+# dt = {"a": [1, 2, 3], "b": [4, 5, 6]}
+# dt["a"].pop()
+# print(dt)
+

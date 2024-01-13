@@ -29,13 +29,13 @@
 
   "bone14": ["bone13", "Bone bone of right arm, control the right hand."],
 
-  "bone15": ["bone1", "Bone of left leg, control the left leg."],
+  "bone15": ["bone4", "Bone of left leg, control the left leg."],
 
   "bone16": ["bone15", "Bone of left leg, control the left shin."],
 
   "bone17": ["bone16", "Bone of left leg, control the left sole"],
 
-  "bone18": ["bone1", "Bone of right leg, control the right leg."],
+  "bone18": ["bone4", "Bone of right leg, control the right leg."],
 
   "bone19": ["bone18", "Bone of right leg, control the right shin."],
 

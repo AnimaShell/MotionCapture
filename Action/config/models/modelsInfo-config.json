@@ -1,0 +1,12 @@
+{
+  "SampleMikuu": {
+    "name": "SampleMikuu",
+    "input": [256, 256, 1],
+    "output": []
+  },
+  "default": {
+    "name": "SampleMikuu",
+    "input": [256, 256, 1],
+    "output": []
+  }
+}
